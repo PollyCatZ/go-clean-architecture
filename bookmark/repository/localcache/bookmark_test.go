@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 	"github.com/stretchr/testify/assert"
-	"github.com/zhashkevych/go-clean-architecture/bookmark"
-	"github.com/zhashkevych/go-clean-architecture/models"
+	"github.com/PollyCatZ/go-clean-architecture/bookmark"
+	"github.com/PollyCatZ/go-clean-architecture/models"
 	"testing"
 )
 
