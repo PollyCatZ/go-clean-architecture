@@ -2,9 +2,9 @@ package http
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/zhashkevych/go-clean-architecture/auth"
-	"github.com/zhashkevych/go-clean-architecture/bookmark"
-	"github.com/zhashkevych/go-clean-architecture/models"
+	"github.com/PollyCatZ/go-clean-architecture/auth"
+	"github.com/PollyCatZ/go-clean-architecture/bookmark"
+	"github.com/PollyCatZ/go-clean-architecture/models"
 	"net/http"
 )
 
