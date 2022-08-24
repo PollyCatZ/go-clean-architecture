@@ -12,15 +12,15 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/zhashkevych/go-clean-architecture/auth"
-	"github.com/zhashkevych/go-clean-architecture/bookmark"
+	"github.com/PollyCatZ/go-clean-architecture/auth"
+	"github.com/PollyCatZ/go-clean-architecture/bookmark"
 
-	authhttp "github.com/zhashkevych/go-clean-architecture/auth/delivery/http"
-	authmongo "github.com/zhashkevych/go-clean-architecture/auth/repository/mongo"
-	authusecase "github.com/zhashkevych/go-clean-architecture/auth/usecase"
-	bmhttp "github.com/zhashkevych/go-clean-architecture/bookmark/delivery/http"
-	bmmongo "github.com/zhashkevych/go-clean-architecture/bookmark/repository/mongo"
-	bmusecase "github.com/zhashkevych/go-clean-architecture/bookmark/usecase"
+	authhttp "github.com/PollyCatZ/go-clean-architecture/auth/delivery/http"
+	authmongo "github.com/PollyCatZ/go-clean-architecture/auth/repository/mongo"
+	authusecase "github.com/PollyCatZ/go-clean-architecture/auth/usecase"
+	bmhttp "github.com/PollyCatZ/go-clean-architecture/bookmark/delivery/http"
+	bmmongo "github.com/PollyCatZ/go-clean-architecture/bookmark/repository/mongo"
+	bmusecase "github.com/PollyCatZ/go-clean-architecture/bookmark/usecase"
 )
 
 type App struct {
